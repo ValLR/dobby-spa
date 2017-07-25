@@ -6777,13 +6777,17 @@ body {
   margin: 0;
   max-width: 100%; }
 
-#carrusel nav.nav-center ul.ppal {
-  text-align: center; }
-  #carrusel nav.nav-center ul.ppal li.ppal {
-    float: none;
-    display: inline; }
-  #carrusel nav.nav-center ul.ppal a.ppal {
-    display: inline-block; }
+#carrusel nav.nav-center {
+  background-color: #2F1F1F; }
+  #carrusel nav.nav-center .home {
+    color: 2px solid #CEB489; }
+  #carrusel nav.nav-center ul.ppal {
+    text-align: center; }
+    #carrusel nav.nav-center ul.ppal li.ppal {
+      float: none;
+      display: inline; }
+    #carrusel nav.nav-center ul.ppal a.ppal {
+      display: inline-block; }
 #carrusel .slide {
   background: url(../img/slide1.jpg);
   background-size: 100%;
@@ -6817,13 +6821,18 @@ body {
   color: #363231;
   width: 100%;
   margin-top: 2px;
-  height: 500px;
+  height: 550px;
   border-top: 2px solid black;
-  border-bottom: 2px double white; }
+  border-bottom: 2px double white;
+  padding: 50px 30px; }
   #services a {
     background-color: #DBBE86;
     color: #363231;
     padding: 0 5px; }
+  #services .img-container {
+    margin-top: -40px; }
+    #services .img-container img {
+      border: 8px solid #DBBE86; }
 
 #beauty {
   background-color: #F4F4F4;
@@ -6864,5 +6873,41 @@ body {
       font-size: 13px; }
   #aboutGift img {
     border-radius: 15%; }
+
+#footer {
+  background-color: #2F1F1F;
+  color: #CEB489;
+  padding-left: 30px;
+  height: 450px; }
+  #footer .footer {
+    padding-top: 50px; }
+    #footer .footer .sm-container {
+      background-color: #BFB68D;
+      border-radius: 100%;
+      border: 3px solid #DE865E;
+      padding: 0;
+      width: 100px;
+      height: 100px;
+      margin: 13px; }
+      #footer .footer .sm-container img {
+        height: 80px;
+        width: 50px; }
+    #footer .footer span {
+      color: #DE865E;
+      font-size: 60px;
+      font-weight: bolder;
+      font-family: 'Revalia', cursive;
+      float: left; }
+    #footer .footer a {
+      color: #DE865E; }
+    #footer .footer .p {
+      font-size: 9px; }
+    #footer .footer .number {
+      font-size: 15px;
+      font-weight: bolder; }
+    #footer .footer .sub-footer {
+      font-size: 5px; }
+      #footer .footer .sub-footer hr {
+        border: 2px double white; }
 
 /*# sourceMappingURL=main.css.map */

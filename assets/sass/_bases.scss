@@ -3,6 +3,10 @@ body{
 }
 #carrusel{
 	nav.nav-center{
+		background-color:$brown;
+		.home{
+			color: $pink-border;
+		}
 		ul.ppal{
 			text-align:$centered;
 			li.ppal{
@@ -37,4 +41,7 @@ body{
 	img{
 		border-radius:$img-radius;
 	}
+}
+#footer{
+	@include footerMix();
 }

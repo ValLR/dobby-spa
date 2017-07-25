@@ -46,13 +46,20 @@
 	color:$body-color;
 	width:$full-width;
 	margin-top:2px;
-	height:500px;
+	height:550px;
 	border-top:$black-border;
 	border-bottom:$white-border;
+	padding:$ideal-padding;
 	a{
 		background-color: #DBBE86;
 		color:$body-color;
 		padding: 0 5px;
+	}
+	.img-container{
+		margin-top:-40px;
+		img{
+			border:$pink-img-border;
+		}
 	}
 }
 @mixin beautyHair(){
@@ -101,5 +108,51 @@
 			p{
 				font-size:13px;	
 			}		
+	}
+}
+@mixin footerMix(){
+	background-color:#2F1F1F;
+	color:$body-pink;
+	padding-left:30px;
+	height:450px;
+	.footer{
+		padding-top:80px;
+			.sm-container{
+				background-color:#BFB68D;
+				border-radius:100%;
+				border:$img-pink-border;
+				padding:0;
+				width:100px;
+				height:100px;
+				margin:13px;
+				img{
+					height:80px;
+					width:50px;
+				}
+			}
+			span{
+				color:$footer-pink;
+				font-size:60px;
+				font-weight:bolder;
+				font-family: 'Revalia', cursive;
+				float: left;
+			}
+			a{
+				color:$footer-pink;
+			}
+			.p{
+				font-size:9px;
+			}
+			.number{
+				font-size:15px;
+				font-weight:bolder;
+			}
+			.sub-footer{
+				hr{
+					border:$white-border;
+				}
+				font-size: 5px;
+			}
+
 	}
 }
