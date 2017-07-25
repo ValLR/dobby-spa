@@ -32,3 +32,9 @@ body{
 #beauty{
 	@include beautyHair();
 }
+#aboutGift{
+	@include aboutG();
+	img{
+		border-radius:$img-radius;
+	}
+}
