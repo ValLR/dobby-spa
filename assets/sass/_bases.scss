@@ -13,9 +13,16 @@ body{
 			}
 		}
 	}
-	.carrusel{
-		.slider{
-			@include slideOne();
-		}
+	.slide{
+		@include slideOne();
+	}
+	.slide2{
+		@include slideTwo();
+	}
+	.slide3{
+		@include slideThree();
+	}
+	.circle-container{
+		@include circleCont();
 	}
 }

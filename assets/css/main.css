@@ -6784,9 +6784,32 @@ body {
     display: inline; }
   #carrusel nav.nav-center ul.ppal a.ppal {
     display: inline-block; }
-#carrusel .carrusel .slider {
+#carrusel .slide {
   background: url(../img/slide1.jpg);
   background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 550px; }
+#carrusel .slide2 {
+  background: url(../img/slide2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 550px; }
+#carrusel .slide3 {
+  background: url(../img/slide1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 550px; }
+#carrusel .circle-container {
+  margin-top: 300px; }
+  #carrusel .circle-container a {
+    margin: 4px 6px; }
+    #carrusel .circle-container a .fa {
+      color: transparent;
+      border: 1.3px solid white;
+      border-radius: 10px; }
+    #carrusel .circle-container a .fa.im1 {
+      color: brown; }
+  #carrusel .circle-container i:hover {
+    color: brown; }
 
 /*# sourceMappingURL=main.css.map */

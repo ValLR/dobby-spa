@@ -11,4 +11,34 @@
 	background:url(../img/slide1.jpg);
 	background-size:$full-width;
 	background-repeat:no-repeat;
+	height:550px;
+}
+@mixin slideTwo(){
+	background:url(../img/slide2.jpg);
+	background-size:$full-width;
+	background-repeat:no-repeat;
+	height:550px;
+}
+@mixin slideThree(){	
+	background:url(../img/slide1.jpg);
+	background-size:$full-width;
+	background-repeat:no-repeat;
+	height:550px;
+}
+@mixin circleCont(){
+	margin-top: 300px;
+	a{
+		margin: 4px 6px;
+		.fa{
+			color:transparent;
+			border:1.3px solid white;
+			border-radius:10px;
+		}
+		.fa.im1{
+			color:brown;
+		}		
+	}
+	i:hover{
+		color:brown;
+	}
 }
