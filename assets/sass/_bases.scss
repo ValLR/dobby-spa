@@ -1,0 +1,14 @@
+body{
+	@include reinicia();
+}
+nav.nav-center{
+	ul{
+		text-align:$centered;
+		li{
+			@include navbar();
+		}
+		a{
+			display:$inline;
+		}
+	}
+}
