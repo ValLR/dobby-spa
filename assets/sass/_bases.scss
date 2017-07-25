@@ -26,3 +26,9 @@ body{
 		@include circleCont();
 	}
 }
+#services{
+	@include services();
+}
+#beauty{
+	@include beautyHair();
+}
