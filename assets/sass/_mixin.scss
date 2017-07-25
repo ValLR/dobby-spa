@@ -6,4 +6,9 @@
 @mixin navbar(){
 	float:none;
 	display:inline;
+} 
+@mixin slideOne(){
+	background:url(../img/slide1.jpg);
+	background-size:$full-width;
+	background-repeat:no-repeat;
 }

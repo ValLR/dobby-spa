@@ -10,27 +10,57 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<nav class="nav-center" role="navigation">
-	    <div class="nav-wrapper container">
-	    	<ul id="dropdown1" class="dropdown-content">
-	    		<li><a href="#!">blogie</a></li>
-	    		<li><a href="#!">blogie</a></li>
-	    		<li><a href="#!">blogie</a></li>
-	    	</ul>
-	    	<ul id="dropdown2" class="dropdown-content">
-	    		<li><a href="#!">About us</a></li>
-	    		<li><a href="#!">About us</a></li>
-	    		<li><a href="#!">About us</a></li>
-	    	</ul>
-	      <ul id="nav-mobile" class="center hide-on-med-and-down">
-	        <li><a id="home" href="#!">home</a></li>
-	        <li><a href="#!" class="dropdown-button" data-activates="dropdown1">blog<i class="material-icons right">arrow_drop_down</i></a></li>
-	        <li><a href="#!" class="dropdown-button" data-activates="dropdown2">about us<i class="material-icons right">arrow_drop_down</i></a></li>
-	        <li><a href="#!">careers</a></li>
-	        <li><a href="#!">contact us</a></li>
-	      </ul>
-	    </div>
-	</nav>
+	<section id="carrusel" class="slider">
+		<nav class="nav-center" role="navigation">
+		    <div class="nav-wrapper">
+		    	<ul id="dropdown1" class="dropdown-content">
+		    		<li><a href="#!">blogie</a></li>
+		    		<li><a href="#!">blogie</a></li>
+		    		<li><a href="#!">blogie</a></li>
+		    	</ul>
+		    	<ul id="dropdown2" class="dropdown-content">
+		    		<li><a href="#!">About us</a></li>
+		    		<li><a href="#!">About us</a></li>
+		    		<li><a href="#!">About us</a></li>
+		    	</ul>
+		    	<ul id="dropdown3" class="dropdown-content">
+		  			<li><a href="#!">one</a></li>
+		  			<li><a href="#!">two</a></li>
+		  			<li><a href="#!">three</a></li>
+				</ul>
+				<ul id="dropdown4" class="dropdown-content">
+		  			<li><a href="#!">one</a></li>
+		  			<li><a href="#!">two</a></li>
+		  			<li><a href="#!">three</a></li>
+				</ul>
+				<a href="#!" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      	<ul id="nav-mobile" class="ppal center hide-on-med-and-down">
+		        	<li class="ppal"><a class="ppal home" href="#!">home</a></li>
+		        	<li class="ppal"><a class="ppal" href="#!" class="dropdown-button" data-activates="dropdown1">blog<i class="material-icons right">arrow_drop_down</i></a></li>
+		        	<li class="ppal"><a class="ppal" href="#!" class="dropdown-button" data-activates="dropdown2">about us<i class="material-icons right">arrow_drop_down</i></a></li>
+		        	<li class="ppal"><a class="ppal" href="#!">careers</a></li>
+		        	<li class="ppal"><a class="ppal" href="#!">contact us</a></li>
+		      	</ul>
+		      	<ul id="mobile-demo" class="side-nav">
+		        	<li><a class="home" href="#!">home</a></li>
+		        	<li><a href="#!" class="dropdown-button" data-activates="dropdown3">blog<i class="material-icons right">arrow_drop_down</i></a></li>
+		        	<li><a href="#!" class="dropdown-button" data-activates="dropdown4">about us<i class="material-icons right">arrow_drop_down</i></a></li>
+		        	<li><a href="#!">careers</a></li>
+		        	<li><a href="#!">contact us</a></li>
+		      	</ul>
+		    </div>
+		</nav>
+		<div class="carrusel center-align">
+			<div class="row">
+				<div class="col l8 arrow-container">
+				</div>
+				<div class="col l4">
+				</div>
+				<div class="col l8 arrow-container">	
+				</div>	
+			</div>
+		</div>
+	</section>
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

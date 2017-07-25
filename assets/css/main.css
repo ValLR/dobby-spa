@@ -6777,12 +6777,16 @@ body {
   margin: 0;
   max-width: 100%; }
 
-nav.nav-center ul {
+#carrusel nav.nav-center ul.ppal {
   text-align: center; }
-  nav.nav-center ul li {
+  #carrusel nav.nav-center ul.ppal li.ppal {
     float: none;
     display: inline; }
-  nav.nav-center ul a {
+  #carrusel nav.nav-center ul.ppal a.ppal {
     display: inline-block; }
+#carrusel .carrusel .slider {
+  background: url(../img/slide1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=main.css.map */

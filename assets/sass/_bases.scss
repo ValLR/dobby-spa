@@ -1,14 +1,21 @@
 body{
 	@include reinicia();
 }
-nav.nav-center{
-	ul{
-		text-align:$centered;
-		li{
-			@include navbar();
+#carrusel{
+	nav.nav-center{
+		ul.ppal{
+			text-align:$centered;
+			li.ppal{
+				@include navbar();
+			}
+			a.ppal{
+				display:$inline;
+			}
 		}
-		a{
-			display:$inline;
+	}
+	.carrusel{
+		.slider{
+			@include slideOne();
 		}
 	}
 }
