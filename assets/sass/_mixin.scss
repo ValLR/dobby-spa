@@ -12,18 +12,24 @@
 	background-size:$full-width;
 	background-repeat:no-repeat;
 	height:550px;
+	z-index:-1;
+	position:relative;
 }
 @mixin slideTwo(){
 	background:url(../img/slide2.jpg);
 	background-size:$full-width;
 	background-repeat:no-repeat;
 	height:550px;
+	z-index:-1;
+	position:relative;
 }
 @mixin slideThree(){	
 	background:url(../img/slide3.jpg);
 	background-size:$full-width;
 	background-repeat:no-repeat;
 	height:550px;
+	z-index:-1;
+	position:relative;
 }
 @mixin circleCont(){
 	margin-top: 300px;
@@ -56,9 +62,10 @@
 		padding: 0 5px;
 	}
 	.img-container{
-		margin-top:-40px;
+		margin-top:-70px;
 		img{
 			border:$pink-img-border;
+			z-index:1;
 		}
 	}
 }
